@@ -36,7 +36,7 @@ cd TestPrj
 
 ### 4. Задайте переменные окружения 
 
-Создайте файл .env.dev на основе [env.dev.example](env.dev.example)
+Создайте файл .env.dev на основе [env.dev.example](.env.dev.example)
 
 ```
 DEBUG=1
