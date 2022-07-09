@@ -7,6 +7,7 @@ from .services.food_service import get_food_category_list
 
 class FoodsList(APIView):
     """Контроллер для вывода списка категорий"""
+
     def get(self, request):
         categories_list = get_food_category_list()
         serializer = FoodListSerializer(categories_list, many=True)
