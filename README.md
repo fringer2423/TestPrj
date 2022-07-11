@@ -49,10 +49,15 @@ SQL_HOST='Your database host'
 SQL_PORT='Your database port'
 ```
 
-### 5. Запустите сервер
+### 5. Проведите миграции
+
+```
+python manage.py migrate
+```
+### 6. Запустите сервер
 
 ``` 
 python manage.py runserver
 ```
 
-### 6. Пользуйтесь =)
+### 7. Пользуйтесь =)
